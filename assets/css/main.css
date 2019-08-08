@@ -1,3 +1,172 @@
+/* default Style */
+/* 
+  violet: 845cff 
+  deafult text color: 525f7f
+ */
+
+html {
+  font: normal 10px 'Conv_BrownLight Regular', arial, sans-serif;  
+  color: #525f7f;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/*  -- default Style */
+
+/* 
+  Module Style 
+***********************/
+p {
+  font: normal 2.3rem/32px 'Conv_BrownLight Regular';
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font: normal 4.8rem 'Conv_BrownLight Regular';
+  color: #32325d;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font: normal 3.0rem 'Conv_BrownLight Regular';
+  margin-bottom: 15px;
+  color: #32325d;
+}
+
+
+/* Button */
+.button {
+  font: bold 1.5rem 'Conv_Brown Bold';
+  background: #845cff;
+  color: #fff;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 14px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 5px 9px -2px rgba(132,92,255,0.5); 
+  box-shadow: 0px 5px 9px -2px rgba(132,92,255,0.5);
+}
+
+/* Cta Wrapper */
+.cta-wrapper h5 {
+  display: inline-block;
+  color: #32325d;
+  font: bold 1.9rem 'Conv_BrownLight Regular';
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cta-wrapper .button {
+  margin-right: 30px;
+}
+
+.cta-wrapper .icon-arrow-right2 {
+  margin-left: 6px;
+  font-size: 15px;
+  color: #32325d;
+}
+
+/* Tick list */
+.tick-list li {
+  margin-bottom: 35px;
+  font: normal 2.0rem 'Conv_BrownLight Regular';
+  color: #32325d;
+}
+
+.tick-list li::before {
+  font-family: 'icomoon';
+  content: "\e901";
+  color: #7a69e6;
+  margin-right: 18px;
+}
+
+/*  -- Module Style */
+
+/* 
+  Component Style 
+***********************/
+
+/* 
+  Generic Style 
+***********************/
+
 body {
-    border: 1px solid red;
+  border: 1px solid red;
+}
+
+.main-header {
+  margin-top: 50px;
+}
+
+.menu li {
+  display: inline-block;
+  font: bold 1.9rem 'Conv_Brown Bold';
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #32325d;
+  padding: 10px 20px;
+}
+
+.menu li a:hover {
+  background: #845cff;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 5px 9px -2px rgba(132,92,255,0.5); 
+  box-shadow: 0px 5px 9px -2px rgba(132,92,255,0.5);
+}
+
+.hero-banner h2 {
+  font: bold 4.8rem 'Conv_Brown Bold';
+  color: #32325d;
+  margin-bottom: 51px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    border: 1px solid green;
+  }
+
+  .main-header::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .menu {
+    float: right;
+  }
+
+  .hero-banner {
+    margin-top: 280px;
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  body {
+    border: 1px solid blue;
+  }
+
+  .wrapper {
+    width: 1220px;
+    margin: 0 auto;
+  }
 }
