@@ -14,18 +14,13 @@ modules
 1) button
 2) paragraph
 3) cta wrapper
-4) h3 - secondary
-5) h4 - tertiary
-6) h5
-5) list
-
+4) h2 - primary
+5) h3 - secondary
+6) h4 - tertiary
+7) h5
+8) list
 
 Component
 1) promo boxes
 2) feature blocks
 3) services
-
-
-Special
-1) h2 - primary
-
