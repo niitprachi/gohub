@@ -1521,3 +1521,8 @@
 .icon-IcoMoon:before {
   content: "\eaec";
 }
+
+/* TODO */
+.icon-copyright:before {
+  content: "\e900";
+}

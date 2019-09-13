@@ -24,3 +24,15 @@ Component
 1) promo boxes
 2) feature blocks
 3) services
+
+
+#To-do list
+1.images in tablet center in -done
+2.drive and ride wrapper- done
+3.code commit regularly
+4.code formating proper
+5 margin-bottom of feature block
+
+
+
+

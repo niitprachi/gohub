@@ -1,0 +1,57 @@
+/* Tablet CSS */
+@media only screen and (min-width: 768px) {
+    body {
+      border: 1px solid green;
+    }
+  
+    .main-header {
+      margin-top: 50px;
+    }
+  
+    .main-header::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  
+    .logo {
+      float: left;
+    }
+  
+    .menu {
+      display: block;
+      float: right;
+    }
+    
+    .hero-banner {
+      margin-top: 280px;
+      width: 480px;
+    }
+
+    .cta-wrapper .button {
+      margin-bottom: 0;
+    }
+  
+    /* promo list */
+    .promo-list li img {
+      margin: 0 0 20px 0;
+      display: inline;
+    }
+  
+    /* features */
+    .features {
+      margin-bottom: 150px;
+    }
+  
+    .features-list {
+      margin-top: 145px;
+    }
+  
+    .features-list li {
+      /* float: left; */
+      display: inline-block;
+      vertical-align: top;
+      margin-left: -4px;
+      width: 50%;
+    }    
+}
