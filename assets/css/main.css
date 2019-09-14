@@ -164,6 +164,10 @@ body {
 .promo {
   margin-bottom: 100px;
 }
+ 
+.promo-list h3 {
+  filter: drop-shadow(3px 3px 2px);
+}
 
 .promo-list li {
   margin-bottom: 60px;
@@ -283,6 +287,8 @@ body {
 
 .contact-us h3 {
   margin-top: 15px;
+  /* text-shadow: 4px 4px 8px blue; */
+  filter: drop-shadow(3px 3px 2px );
 }
 
 .contact-us h5 {
@@ -344,6 +350,7 @@ input[type="text"] {
 
 .footer-contact img {
   margin-bottom: 10px;
+  filter: blur(1px);
 }
 
 .footer-contact .mobno {
