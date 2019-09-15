@@ -9,6 +9,10 @@ html {
   color: #525f7f;
 }
 
+body, ul {
+  margin: 0;
+}
+
 h1, h2, h3, h4, h5 {
   margin: 0; 
 }
@@ -69,10 +73,6 @@ h6 {
 }
 
 /* Cta Wrapper */
-/* .cta-wrapper {
-  margin-top: 20px;
-} */
-
 .cta-wrapper h5 {
   display: inline-block;
   color: #32325d;
@@ -114,10 +114,6 @@ h6 {
 /* 
   Generic Style 
 ***********************/
-body {
-  border: 1px solid red;
-}
-
 .wrapper {
   margin-left: 20px;
   margin-right: 20px;
@@ -165,10 +161,6 @@ body {
   margin-bottom: 100px;
 }
  
-.promo-list h3 {
-  filter: drop-shadow(3px 3px 2px);
-}
-
 .promo-list li {
   margin-bottom: 60px;
 }
@@ -281,6 +273,7 @@ body {
   background: #fafaff;
 }
 
+
 .contact-us img{
   margin-top: 50px;
 }
@@ -288,7 +281,7 @@ body {
 .contact-us h3 {
   margin-top: 15px;
   /* text-shadow: 4px 4px 8px blue; */
-  filter: drop-shadow(3px 3px 2px );
+  /* filter: drop-shadow(3px 3px 2px ); */
 }
 
 .contact-us h5 {
@@ -348,27 +341,26 @@ input[type="text"] {
   font-family: 'Conv_BrownLight Regular';
 }
 
-.footer-contact img {
-  margin-bottom: 10px;
-  filter: blur(1px);
+.footer-contact a {
+   margin-bottom: 30px; 
+  /* filter: blur(1px); */
 }
 
 .footer-contact .mobno {
   margin-bottom: -30px;
 }
 
-.footer a {
+.footer-contact a,
+.footer-blog a,
+.footer-privacylist a {
   color: #d3d3d9;
   text-decoration: none;
   display: block;
   font-size: 1.6rem;
-  margin-bottom: 40px;
 }
 
-.footer > p {
-  font-family: normal 1.6rem 'Conv_BrownLight Regular';
-  margin-top: 50px;
-  color: #474668;
+.footer-blog {
+  margin-top: 20px;
 }
 
 .icon-social {
@@ -378,15 +370,25 @@ input[type="text"] {
   color: #474668;
 }
 
-.footer-privacylist a {
-  color: #474668;
+.footer-copyright::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.footer-contact > p:before {
-  content: "\e900";
-  color: #b3b3cd;
-  font-size: 15px;
-  font-family: 'icomoon'; 
+.footer-copyrights > p {
+  font: normal 1.6rem 'Conv_BrownLight Regular';
+  color: #474668;
+  margin-top: 30px;
+}
+
+.footer-privacylist li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-privacylist li > a {
+  color: #474668;
 }
 
 /* .footer-contact p::before {

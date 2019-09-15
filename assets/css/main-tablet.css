@@ -1,9 +1,5 @@
 /* Tablet CSS */
 @media only screen and (min-width: 768px) {
-    body {
-      border: 1px solid green;
-    }
-  
     .main-header {
       margin-top: 50px;
     }
@@ -48,10 +44,75 @@
     }
   
     .features-list li {
-      /* float: left; */
       display: inline-block;
       vertical-align: top;
       margin-left: -4px;
       width: 50%;
-    }    
+    }  
+    
+    /* footer */
+    .footer-contact {
+      float: left;
+    }
+
+    .footer-blog {
+      float: right;
+    }
+
+    .footer .wrapper::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .footer-contact a {
+      margin-bottom: 50px;
+    }
+
+    .footer-blog {
+      margin-top: 0;
+    }
+    
+    .footer-blog ul {
+      float: left;
+      width: 33.33%;
+      vertical-align: text-top;
+      box-sizing: border-box;
+      padding-right: 20px;
+    }
+
+    .footer-blog ul:last-child {
+      padding-right: 0;
+    }
+
+    .footer-blog li {
+      margin-bottom: 20px;
+    }
+
+    .footer-copyrights {
+      padding-top: 100px;
+      clear: both;
+    }
+
+    .footer-copyrights::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .footer-copyrights p {
+      float: left;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .footer-privacylist {
+      float: right;
+    }
+
+    .footer-privacylist li {
+      display: inline-block;
+      margin-left: 45px;
+      margin-right: 0;
+    }
 }
