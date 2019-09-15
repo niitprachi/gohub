@@ -271,22 +271,16 @@ h6 {
 /* contact-us */
 .contact-us {
   background: #fafaff;
-}
-
-
-.contact-us img{
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contact-us h3 {
   margin-top: 15px;
-  /* text-shadow: 4px 4px 8px blue; */
-  /* filter: drop-shadow(3px 3px 2px ); */
 }
 
 .contact-us h5 {
   margin-top: 30px;
-  padding-bottom: 50px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */

@@ -1,12 +1,7 @@
 /* Desktop CSS */
 @media only screen and (min-width: 1024px) {
   
-    .wrapper {
-      max-width: 1235px;
-      margin: 0 auto;
-    }
-   
-    /* promo list */
+  /* promo list */
     .promo-list {
       margin-left: -100px;
     }
@@ -21,9 +16,7 @@
       width: calc(50% - 100px);
       float: left;
       margin-left: 100px;
-      padding-left: 50px;
-      padding-bottom: 20px;
-      padding-top: 50px;
+      padding: 50px 30px 20px 50px;
       box-sizing: border-box;
       border: 1px solid #e2e7f8;
       border-radius: 5px;
@@ -43,26 +36,33 @@
     /* services */
     .services-list > li {
       width: 50%;
-      padding-left: 38px;
-      padding-right: 38px;
+      /* padding-left: 38px;
+      padding-right: 38px; */
       box-sizing: border-box;
       margin-bottom: 150px;
     }
 
     .services-list > li:first-child {
       float: right;
+      padding-left: 25px;
     }
 
     .services-list > li:last-child {
       float: left;
+      padding-right: 25px;
     }
 
     .opportunity li:first-child {
       float: left;
+      padding-right: 25px;
+      padding-left: 0;
+
     }
 
     .opportunity li:last-child {
       float: right;
+      padding-left: 25px;
+      padding-right: 0;
     }
 
     .services-list::after {
@@ -94,8 +94,12 @@
     }
 
     /* contact-us */
-    .contact-us img {
+    .contact-us {
       padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    .contact-us img {
       display: block;
     }
 
@@ -113,7 +117,6 @@
 
     .contact-us h5 {
       margin-top: 30px;
-      padding-bottom: 100px;
     }
 
     .from {
@@ -135,5 +138,12 @@
     .footer-blog ul {
       padding-right: 80px;
     }
+}
+
+@media only screen and (min-width: 1235px) {
+  .wrapper {
+    max-width: 1235px;
+    margin: 0 auto;
+  }
 }
     
