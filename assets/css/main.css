@@ -349,8 +349,10 @@ input[type="text"] {
 .footer-privacylist a {
   color: #d3d3d9;
   text-decoration: none;
-  display: block;
   font-size: 1.6rem;
+}
+.footer-contact a {
+  font-size: 0;
 }
 
 .footer-blog {
