@@ -1,0 +1,157 @@
+/* Desktop CSS */
+@media only screen and (min-width: 1024px) {
+  
+  /* promo list */
+    .promo-list {
+      margin-left: -100px;
+    }
+  
+    .promo-list::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  
+    .promo-list li {
+      width: calc(50% - 100px);
+      float: left;
+      margin-left: 100px;
+      padding: 50px 30px 20px 50px;
+      box-sizing: border-box;
+      border: 1px solid #e2e7f8;
+      border-radius: 5px;
+    }
+  
+    .promo-list li:first-child {
+      margin-top: 80px;
+      padding-left: 0;
+      border: 0;
+    }
+  
+    /* features */
+    .features-list > li {
+      width: 25%;
+    }
+
+    /* services */
+    .services-list > li {
+      width: 50%;
+      /* padding-left: 38px;
+      padding-right: 38px; */
+      box-sizing: border-box;
+      margin-bottom: 150px;
+    }
+
+    .services-list > li:first-child {
+      float: right;
+      padding-left: 25px;
+    }
+
+    .services-list > li:last-child {
+      float: left;
+      padding-right: 25px;
+    }
+
+    .opportunity li:first-child {
+      float: left;
+      padding-right: 25px;
+      padding-left: 0;
+
+    }
+
+    .opportunity li:last-child {
+      float: right;
+      padding-left: 25px;
+      padding-right: 0;
+    }
+
+    .services-list::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .services-list img {
+      max-width: 100%;
+    }
+
+    .services-drive::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .services-drive li {
+      margin-bottom: 0;
+      width: 50%;
+      padding-left: 50px;
+      box-sizing: border-box;
+      float: left;
+    }
+    
+    .services-drive li:first-child {
+      padding-left: 0;
+    }
+
+    /* contact-us */
+    .contact-us {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    .contact-us img {
+      display: block;
+    }
+
+    .contact-us h3 {
+      margin-top: 30px;
+      float: left;
+      margin-right: 200px;
+    }
+
+    .contact-us::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .contact-us h5 {
+      margin-top: 30px;
+    }
+
+    .from {
+      margin-top: 30px;
+    }
+
+    input[type="text"] {
+      margin-right: 10px;
+      width: 500px;
+      margin-top: 40px;
+    }
+
+    /* footer */
+    .footer {
+      padding-top: 100px;
+      padding-bottom: 90px;
+    }
+
+    .footer-blog ul {
+      padding-right: 80px;
+    }
+}
+
+ @media only screen and (min-width: 1235px) {
+  .wrapper {
+    max-width: 1235px;
+    margin: 0 auto;
+  }
+} 
+
+@media only screen and (min-width: 1916px) {
+  body {
+    background: transparent url('../images/banner-hero.png') no-repeat 50% 0;
+    background-size: auto;
+    border: 1px solid red;
+  }
+}
+    
